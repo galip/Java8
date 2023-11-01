@@ -14,7 +14,7 @@ public class Student {
 		this.grade = grade;
 		this.favouriteLectures = favouriteLectures;
 	}
-
+	
 	public String getName() {
 		return name;
 	}
@@ -37,6 +37,10 @@ public class Student {
 
 	public void setFavouriteLectures(List<String> favouriteLectures) {
 		this.favouriteLectures = favouriteLectures;
+	}
+	
+	public void printFavouriteLectures() {
+		System.out.println(favouriteLectures);
 	}
 
 	@Override
