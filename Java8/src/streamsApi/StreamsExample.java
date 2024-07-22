@@ -10,6 +10,7 @@ import data.StudentDatabase;
 
 public class StreamsExample {
 
+	//
 	public static void main(String args[]) {
 
 		Predicate<Student> studentGpaPredicate = (student -> student.getGrade() >= 3);
